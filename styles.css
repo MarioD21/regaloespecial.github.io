@@ -185,14 +185,14 @@ button {
 }
 
 @media (max-width: 1600px) {
-    h1 {
+     h1 {
         font-size: 40px;
-        top: 12%;
+        top: 8%;
     }
 
     .imagen {
         width: 30%;
-        top: 48%;
+        top: 44%;
     }
 
     .gif {
@@ -209,14 +209,14 @@ button {
 
     button {
         font-size: 40px;
-        top: 75%;
+        top: 73%;
         left: 40%;
     }
 
     .button2 {
         font-size: 40px;
-        top: 86%;
-        left: 44%;
+        top: 87%;
+        left: 45%;
     }
 
     .button3 {
@@ -227,7 +227,7 @@ button {
 
     #lyricsContainer{
         font-size: 20px;
-        top: 67%;
+        top: 65%;
     }
 }
 
