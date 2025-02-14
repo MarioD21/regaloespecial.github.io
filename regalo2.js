@@ -126,7 +126,7 @@ const opciones = [
     { img: 'tite.jpeg', text: 'Y cuando la escucho pienso en ti...💕', gif: 'kirbyfeli.gif' }
 ];
 
-const musicaSrc = "musica.mp3"; // Aqui se cambia el archivo por otra cancion
+const musicaSrc = "Musica.mp3"; // Aqui se cambia el archivo por otra cancion
 let index = 0;
 
 
